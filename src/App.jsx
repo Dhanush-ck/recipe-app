@@ -7,7 +7,7 @@ function App() {
         <header className="header flex justify-center items-center text-5xl w-fit p-3 rounded-full text-black bg-white ">
           Recipe
         </header>
-        <div className="menu w-full h-full p-5 flex justify-center items-center">
+        <div className="menu w-full h-full p-5 flex justify-center items-center gap-4">
           
           <div className="item">
             <div className="item-header">
