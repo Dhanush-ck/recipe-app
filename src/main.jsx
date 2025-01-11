@@ -5,6 +5,7 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import App from './App.jsx'
 import Home from './components/Home.jsx'
 import Chicken from './components/non-veg/Chicken.jsx'
+import Fish from './components/non-veg/Fish.jsx'
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
       {
         path:"/chicken",
         element: <Chicken />
+      },
+      {
+        path:"/fish",
+        element: <Fish />
       }
     ]
   }
