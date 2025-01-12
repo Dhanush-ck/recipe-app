@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import App from './App.jsx'
-import Home from './components/Home.jsx'
+import Home from './components/home.jsx'
 import Chicken from './components/non-veg/Chicken.jsx'
 import Fish from './components/non-veg/Fish.jsx'
 
