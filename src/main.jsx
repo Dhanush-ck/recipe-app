@@ -6,6 +6,7 @@ import App from './App.jsx'
 import Home from './components/home.jsx'
 import Chicken from './components/non-veg/Chicken.jsx'
 import Fish from './components/non-veg/Fish.jsx'
+import Mutton from './components/non-veg/Mutton.jsx'
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
       {
         path:"/fish",
         element: <Fish />
+      },
+      {
+        path:"/mutton",
+        element: <Mutton />
       }
     ]
   }
