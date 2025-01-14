@@ -17,7 +17,7 @@ function Home() {
             <ul className="list">
               <NavLink to={"/chicken"}><li className="list-item">Chicken</li></NavLink>
               <NavLink to={"/fish"}><li className="list-item">Fish</li></NavLink>
-              <li className="list-item">Mutton</li>
+              <NavLink to={"/mutton"}><li className="list-item">Mutton</li></NavLink>
             </ul>
           </div>
 
