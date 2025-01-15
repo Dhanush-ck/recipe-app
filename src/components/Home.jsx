@@ -26,7 +26,7 @@ function Home() {
               <h2>Vegetarian</h2>
             </div>
             <ul className="list">
-              <li className="list-item">Paneer</li>
+              <NavLink to={"/paneer"}><li className="list-item">Paneer</li></NavLink>
               <li className="list-item">Cauliflower</li>
               <li className="list-item">Potato</li>
             </ul>
