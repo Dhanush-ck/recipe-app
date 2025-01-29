@@ -9,6 +9,7 @@ import Fish from './components/non-veg/Fish.jsx'
 import Mutton from './components/non-veg/Mutton.jsx'
 import Paneer from './components/veg/Panner.jsx'
 import Cauliflower from './components/veg/Cauliflower.jsx'
+import ChickenBiriyani from './components/non-veg/ChickenBiriyani.jsx'
 
 const router = createBrowserRouter([
   {
@@ -38,6 +39,10 @@ const router = createBrowserRouter([
       {
         path:"/cauliflower",
         element: <Cauliflower />
+      },
+      {
+        path:"/chickenbiriyani",
+        element: <ChickenBiriyani />
       }
     ]
   }
