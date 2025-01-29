@@ -93,3 +93,13 @@
   @apply flex justify-center items-center text-xl;
   height: 10%;
 }
+
+/* recipe  */
+.recipe-container {
+  @apply h-screen w-screen bg-slate-300 flex justify-center items-center
+}
+
+.recipe-elements {
+  @apply grid m-9;
+  grid-template-columns: 1fr 2fr;
+}
